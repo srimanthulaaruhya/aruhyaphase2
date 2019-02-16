@@ -1,0 +1,363 @@
+/*desktop view*/
+#form
+{
+	background: #1FC1D8;
+	text-align: center;
+
+}
+.main
+{
+	background: pink;
+	margin: 2%;
+	padding: 2%;
+	/*flex-direction: row;*/
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-around;
+}
+.sub
+{
+	width: 92%;
+	background: #27E9D6;
+	margin: 1%;
+	padding: 1%;
+
+
+}
+.sub1
+{
+	width: 43%;
+	background: #27E9D6;
+	margin: 1%;
+	padding: 1%;
+	border-radius: 10%;
+
+
+}
+input,select{
+	width: 90%;
+	margin: 1%;
+
+}
+button{
+	width: 15%;
+	border-radius: 50%;
+	height: 7vh;
+	/*background: #1FC1D8;*/
+
+}
+#main
+{
+	background: pink;
+	text-align: center;
+	
+}
+header{
+	height: 15vh;
+	padding: 1%;
+	margin: 1%;
+	background: #27E9D6;
+
+
+}
+#main a{
+	text-decoration: none;
+}
+#main button
+{
+	background: white;
+}
+.profile{
+	color: red;
+}
+
+.main1
+{
+	background: pink;
+	margin: 5%;
+
+	display: flex;
+	justify-content: space-around;
+	border-radius: 5%;
+}
+.left
+{
+	background: #5CEAF2;
+	margin: 2%;
+	border-radius: 5%;
+	width: 20%;
+	height: 500px;
+	text-align: center;
+}
+.right
+{
+	background: lightsalmon;
+	margin: 5%;
+	width: 50%;
+	height: 800px;
+	border-radius: 5%;
+	box-shadow: 4px 4px 4px 4px;
+	padding: 3%;
+}
+img 
+{
+	height: 40%;
+	width: 80%;
+	margin: 5%;
+}
+
+
+/*mobile view*/
+@media screen and (min-width: 320px) and (max-width: 480px){
+#form
+{
+	background: #1FC1D8;
+	text-align: center;
+	/*width: 5%;
+	margin: 6%;
+*/
+}
+.main
+{
+	background: pink;
+	margin: 1%;
+	padding: 1%;
+	width: 320px;
+	
+	/*flex-direction: row;*/
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-around;
+}
+.sub
+{
+	width: 80%;
+	background: #27E9D6;
+	margin: 5%;
+	padding: 4%;
+
+
+}
+.sub1
+{
+	width: 70%;
+	background: #27E9D6;
+	margin: 10%;
+	padding: 1%;
+	border-radius: 10%;
+
+
+}
+input,select{
+	width: 90%;
+	margin: 3%;
+
+}
+button{
+	width: 100px;
+	border-radius: 80%;
+	height: 10vh;
+	/*background: #1FC1D8;*/
+
+}
+#main
+{
+	background: pink;
+	text-align: center;
+
+	
+}
+header{
+	height: 15vh;
+	padding: 1%;
+	margin: 1%;
+	background: #27E9D6;
+
+
+}
+#main a{
+	text-decoration: none;
+}
+#main button
+{
+	background: white;
+}
+.profile{
+	color: red;
+}
+.main1
+{
+	/*background: #23DEE9;*/
+	display: inline-block;
+	/*justify-content: space-around;*/
+	margin: 1%;
+	border-radius: 2%;
+	width: 320px;
+	padding: 2%;
+
+	
+	
+}
+.left
+{
+	background: #74DA53;
+	display: inline-block;
+	margin: 9%;
+	width: 215px;
+	height: 405px;
+	text-align: center;
+	border-radius: 5%;
+	box-shadow: 4px 4px 4px 4px;
+	padding: 5%;
+	
+
+}
+.right
+{
+	background: lightsalmon;
+	margin: 2%;
+	width: 290px;
+	height: 800px;
+	border-radius: 5%;
+	box-shadow: 4px 4px 4px 4px;
+	padding: 2%;
+	word-wrap: break-word;
+}
+img 
+{
+	height: 40%;
+	width: 80%;
+	margin: 5%;
+}
+
+}
+
+
+
+
+
+/*tab view*/
+@media screen and (min-width: 481px) and (max-width: 680px){
+#form
+{
+	background: #1FC1D8;
+	text-align: center;
+	
+
+
+}
+.main
+{
+	background: pink;
+	margin: 1%;
+	padding: 2%;
+	/*flex-direction: row;*/
+	
+	flex-wrap: wrap;
+	display: flex;
+	
+	
+	justify-content: space-around;
+}
+.sub
+{
+	width: 92%;
+	background: #27E9D6;
+	margin: 1%;
+	text-align: center;
+	padding: 1%;
+
+
+}
+.sub1
+{
+	width: 43%;
+	background: #27E9D6;
+	margin: 1%;
+	padding: 1%;
+	
+	flex-wrap: wrap;
+	display: flex;
+	border-radius: 10%;
+
+
+}
+input,select{
+	width: 90%;
+	margin: 1%;
+
+}
+button{
+	width: 30%;
+	border-radius: 50%;
+	height: 7vh;
+	/*background: #1FC1D8;*/
+
+}
+#main
+{
+	background: pink;
+	text-align: center;
+	
+}
+header{
+	height: 15vh;
+	padding: 1%;
+	margin: 1%;
+	background: #27E9D6;
+
+
+}
+#main a{
+	text-decoration: none;
+}
+#main button
+{
+	background: white;
+}
+.profile{
+	color: red;
+}
+.main1
+{
+	/*display: inline-block;*/
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-around;
+	margin: 2%;
+	border-radius: 4%;
+	width: 440px;
+	
+	
+}
+.left
+{
+	background: #5CEAF2;
+    margin: 8%;
+	width: 300px;
+	height: 420px;
+	text-align: center;
+	border-radius: 5%;
+	box-shadow: 4px 4px 4px 4px;
+	padding: 4%;
+
+}
+.right
+{
+	background: lightsalmon;
+	margin: 3%;
+	width: 400px;
+	height: 780px;
+	border-radius: 5%;
+	box-shadow: 4px 4px 4px 4px;
+	padding: 3%;
+	
+}
+img 
+{
+	height: 40%;
+	width: 80%;
+	margin: 5%;
+}
+}
+
